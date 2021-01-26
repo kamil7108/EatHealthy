@@ -20,6 +20,7 @@ public class HelloServlet {
 
     @Autowired
     private AuthenticationManager authenticationManager;
+
     @Autowired
     private UserLogInService userLogInService;
     @Autowired
